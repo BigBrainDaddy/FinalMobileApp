@@ -7,19 +7,33 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.myapplication.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.example.myapplication.home.HomeFragment"
+        android:label="Home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/academic"
+        android:name="com.example.myapplication.ui.Academic_Achievments.AcademicFragment"
+        android:label="Academic Achievements"
+        tools:layout="@layout/fragment_academic2" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/athletics"
+        android:name="com.example.myapplication.Athletics.AthleticFragment"
+        android:label="Athletics"
+        tools:layout="@layout/fragment_athletics2" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/clubs"
+        android:name="com.example.myapplication.clubs.ClubFragment"
+        android:label="Clubs"
+        tools:layout="@layout/fragment_club" />
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.myapplication.community.CommunityFragment"
+        android:label="Community"
+        tools:layout="@layout/fragment_community2" />
+    <fragment
+        android:id="@+id/performing"
+        android:name="com.example.myapplication.performing.PerformingFragment"
+        android:label="Performing"
+        tools:layout="@layout/fragment_performing2" />
 </navigation>

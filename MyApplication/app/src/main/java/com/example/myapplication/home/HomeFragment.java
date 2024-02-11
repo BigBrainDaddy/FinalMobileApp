@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.home;
+package com.example.myapplication.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,8 +18,8 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        com.example.myapplication.home.HomeViewModel homeViewModel =
+                new ViewModelProvider(this).get(com.example.myapplication.home.HomeViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
